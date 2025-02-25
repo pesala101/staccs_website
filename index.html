@@ -11,9 +11,14 @@
         nav a { color: white; margin: 0 15px; text-decoration: none; }
         section { padding: 20px; }
         footer { background: #222; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .fb-container { width: 100%; max-width: 500px; margin: auto; }
     </style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v22.0"></script>
+
     <header>St Andrews Gardiner Cricket Club</header>
     <nav>
         <a href="#about">About Us</a>
@@ -35,9 +40,18 @@
     </section>
     
     <section id="news">
-        <h2>News & Events</h2>
-        <p>Upcoming events and club updates will be posted here.</p>
-    </section>
+    <h2>News & Events</h2>
+    <p>Upcoming events and club updates will be posted here.</p>
+
+    <iframe src="https://www.facebook.com/plugins/page.php?
+    href=https%3A%2F%2Fwww.facebook.com%2FStAndrewsCricketClubGardiner
+    &tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true
+    &hide_cover=false&show_facepile=true"
+    width="500" height="600" style="border:none;overflow:hidden"
+    scrolling="no" frameborder="0" allowfullscreen="true"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+    </iframe>
+</section>
     
     <section id="gallery">
         <h2>Gallery</h2>
@@ -46,12 +60,12 @@
     
     <section id="sponsors">
         <h2>Our Sponsors</h2>
-        <p>Thank you to Exedy and our other supporters.</p>
+        <p>Thank you to our sponsors and supporters.</p>
     </section>
     
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@staccs.com.au | Location: Malvern, Melbourne</p>
+        <p>Email: staccs1916@gmail.com | Location: Malvern, Melbourne</p>
     </section>
     
     <footer>
